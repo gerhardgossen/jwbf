@@ -59,6 +59,18 @@ public class ParsedPage {
         @JsonProperty
         boolean exists;
 
+        public int getNamespace() {
+            return namespace;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public boolean exists() {
+            return exists;
+        }
+
     }
 
     public static class Category {
