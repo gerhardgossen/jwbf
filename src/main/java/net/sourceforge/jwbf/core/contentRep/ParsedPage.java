@@ -16,6 +16,8 @@ public class ParsedPage {
         public String from;
         @JsonProperty
         public String to;
+        @JsonProperty
+        public String tofragment;
     }
 
     static class ParsedText {
